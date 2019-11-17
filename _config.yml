@@ -1,0 +1,160 @@
+url: https://sahilbathlaofficial.github.io
+# baseurl: /proapps/
+# baseurl:
+
+# Site settings
+title: Decabits
+email: sahilbathla1@gmail.com
+description: "Decabits provides an end to end software solution. From design to web/mobile development to quality ensurance, we cover it all. Technologies :- Ruby on Rails, Angular, Node, React, Android & IOS"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: fed136
+  secondary: fec503
+  secondary-dark: 333
+
+# Team names, titles and social links
+people:
+- name: Sahil Batla
+  pic: 1
+  position: Team Head & Lead Developer
+  social:
+    - title: twitter
+      url: https://twitter.com/sahilbathla
+    - title: facebook
+      url: https://www.facebook.com/sahilbathla1
+    - title: stack-overflow
+      url: https://stackoverflow.com/users/3122241/sahilbathla
+
+- name: Udit Mittal
+  pic: 2
+  position: Principal Consultant
+  social:
+    - title: twitter
+      url: 
+    - title: facebook
+      url: https://www.facebook.com/udit7590
+    - title: stack-overflow
+      url: https://stackoverflow.com/users/2116438/udit-mittal
+
+- name: Harnoor Kaur Gulati
+  pic: 3
+  position: HR Manager
+  social:
+    - title: twitter
+      url: 
+    - title: facebook
+      url: https://www.facebook.com/harnoor.gulati
+    - title: stack-overflow
+      url: 
+
+- name: Tanveer Singh
+  pic: 5
+  position: Software Developer
+  social:
+    - title: twitter
+      url: 
+    - title: facebook
+      url: https://www.facebook.com/catalystos  
+    - title: stack-overflow
+      url: https://stackexchange.com/users/15872566/tanveer-singh
+
+- name: Shubham Gupta
+  pic: 6
+  position: Software Developer
+  social:
+    - title: twitter
+      url: 
+    - title: facebook
+      url: 
+    - title: stack-overflow
+      url: https://stackoverflow.com/users/9671931/shubham-gupta
+
+- name: Vishal Raghav
+  pic: 8
+  position: Software Developer
+  social:
+    - title: twitter
+      url: 
+    - title: facebook
+      url: https://www.facebook.com/vishal.raghav.7
+    - title: stack-overflow
+      url: 
+
+
+- name: Akshay Kumar 
+  pic: 9
+  position: Project Manager
+  social:
+    - title: twitter
+      url: 
+    - title: facebook
+      url: https://www.facebook.com/akshay.kumarar33
+    - title: stack-overflow
+      url: 
+
+- name: Vishal Bardewa
+  pic: 10
+  position: Software Developer
+  social:
+    - title: twitter
+      url: https://twitter.com/VishalBardewa
+    - title: facebook
+      url: https://www.facebook.com/vishal.bardewa
+    - title: stack-overflow
+      url: https://stackoverflow.com/users/7393503/vishal-bardewa
+
+- name: Manisha Joshi
+  pic: 12
+  position: Software Developer
+  social:
+    - title: twitter
+      url: 
+    - title: facebook
+      url: 
+    - title: stack-overflow
+      url: https://stackexchange.com/users/8606939/manisha
+
+- name: Mohd Ayaz
+  pic: 13
+  position: UI Developer
+  social:
+    - title: twitter
+      url: 
+    - title: facebook
+      url: 
+    - title: stack-overflow
+      url: https://stackoverflow.com/users/11990336/ayan-saifi
+
+- name: Amisha Singla
+  pic: 14
+  position: QA Engineer
+  social:
+    - title: twitter
+      url: 
+    - title: facebook
+      url: https://www.facebook.com/ami.singla
+    - title: stack-overflow
+      url: 
+
+ 
+
+ 
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/company/decabits/about/
+  - title: facebook
+    url: https://www.facebook.com/decabits/
+  - title: instagram
+    url: https://www.instagram.com/decabits/
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty

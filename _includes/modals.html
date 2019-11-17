@@ -1,0 +1,29 @@
+<!-- Portfolio Modals -->
+{% for post in site.posts %}
+<div class="portfolio-modal-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-xs-12">
+                <img class="portfolio-img img-responsive" src="../img/portfolio/{{ post.img }}" />
+            </div>
+            <div class="col-md-6 col-xs-12 portfolio-modal-content">
+                <h2>{{ post.title }}</h2>
+                <p>{{ post.description }}
+                </p>
+                <p><span style="font-size: 20px; color: Dodgerblue;">
+                        <i class="fa fa-user"></i></span> CLIENT: {{ post.client }}</p>
+                <p><span style="font-size: 20px; color: Dodgerblue;">
+                        <i class="fa fa-calendar"></i>
+                    </span> DATE: {{ post.project-date }}</p>
+                <p><span style="font-size: 20px; color: Dodgerblue;">
+                        <i class="fa fa-mobile"></i></span> SERVICE: {{ post.category }}</p>
+                {%if post.link %}
+                <a href="{{ post.link }}"><span style="font-size: 28px; color: Dodgerblue;">
+                        <i class="fa fa-arrow-circle-right"></i>
+                    </span>View Webiste</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
